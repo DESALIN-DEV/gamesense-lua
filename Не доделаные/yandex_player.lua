@@ -1,7 +1,7 @@
 local http = require("gamesense/http")
 
 -- URL вашего сайта
-local player_url = "https://hvn.su/radio.html"
+local player_url = "https://доменваш/radio.html"
 
 -- Проверка, находится ли мышь в указанной области
 local function is_mouse_in_region(x, y, width, height)
