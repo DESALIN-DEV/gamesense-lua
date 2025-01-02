@@ -1,4 +1,4 @@
--- Получение уникального идентификатора игрока (Steam ID)
+-- Получение Steam ID
 local function get_unique_id()
     local steam_id = entity.get_steam64(entity.get_local_player())
     if steam_id then
